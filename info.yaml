@@ -1,9 +1,9 @@
 # Tiny Tapeout project information
 project:
-  title:        "halfadder"      # Project title
+  title:        "nor"      # Project title
   author:       "johnpatrick"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "performs half adder"      # One line description of what your project does
+  description:  "performs nor and or"      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -24,7 +24,7 @@ pinout:
   # Inputs
   ui[0]: "a"
   ui[1]: "b"
-  ui[2]: ""
+  ui[2]: "c"
   ui[3]: ""
   ui[4]: ""
   ui[5]: ""
@@ -32,8 +32,8 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: "sum"
-  uo[1]: "carryout"
+  uo[0]: "out"
+  uo[1]: ""
   uo[2]: ""
   uo[3]: ""
   uo[4]: ""
